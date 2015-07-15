@@ -1,0 +1,83 @@
+/* Page Header */
+
+.pageHeader {
+  background-color: #282828;
+}
+
+.pageHeader * {
+  color: #f3a22d !important;
+}
+
+.pageHeader-navbar {
+  overflow: auto;
+  padding: 10px 16px;
+  line-height: 45px;
+}
+
+.pageHeader-navbar .logo {
+  float: left;
+  width: 180px;
+  background-image: url(/images/logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.pageHeader-navbar .logo h1 {
+  margin: 0;
+}
+
+.pageHeader-navbar .logo a {
+  display: block;
+  text-indent: -1000px;
+  text-decoration: none;
+  color: black;
+}
+
+.pageHeader-navbar .menu {
+  float: right;
+}
+
+/* 使用 media queries 實作內容響應式 */
+@media (max-width: 720px) {
+  .pageHeader-navbar {
+    padding-bottom: 0;
+  }
+  .pageHeader-navbar .logo {
+    /* 使用 `margin: auto;` 可以讓元素置中 */
+    float: none;
+    margin: 0 auto;
+    background-position: center;
+    line-height: 60px;
+  }
+  .pageHeader-navbar .menu {
+    display: block;
+    float: none;
+    margin: 8px -16px 0 -16px;
+    text-align: center;
+    font-size: 14px;
+  }
+  .pageHeader-navbar .menu li {
+    display: inline-block;
+    float: none;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+
+/* Menu */
+
+.menu {
+  margin-right: -16px;
+}
+
+.menu li {
+  list-style: none;
+  float: left;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: black;
+}

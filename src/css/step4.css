@@ -1,0 +1,60 @@
+/* Page Header */
+
+.pageHeader {
+  background-color: #282828;
+}
+
+.pageHeader * {
+  /* !important 表示該定義為最高優先 */
+  color: #f3a22d !important;
+}
+
+.pageHeader-navbar {
+  /* 使用 `overflow: auto;` 可以讓 pageHeader-navbar 包含所有子元素的空間 */
+  overflow: auto;
+  padding: 10px 16px;
+  line-height: 45px;
+}
+
+.pageHeader-navbar .logo {
+  /* 使用 `float: left;` 可以將該元素浮動到左邊 */
+  float: left;
+  width: 180px;
+  background-image: url(/images/logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.pageHeader-navbar .logo h1 {
+  margin: 0;
+}
+
+.pageHeader-navbar .logo a {
+  /* 使用 `text-decoration: none;` 可以讓<a>去除下方的底線 */
+  display: block;
+  text-indent: -1000px;
+  text-decoration: none;
+  color: black;
+}
+
+.pageHeader-navbar .menu {
+  float: right;
+}
+/* Menu */
+
+.menu {
+  margin-right: -16px;
+}
+
+.menu li {
+  /* 使用 `list-style: none;` 可以讓<li>去除圓點 */
+  list-style: none;
+  float: left;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: black;
+}
