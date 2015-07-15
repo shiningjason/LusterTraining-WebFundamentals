@@ -53,7 +53,7 @@ body {
 .pageHeader-navbar .logo {
   float: left;
   width: 180px;
-  background-image: url(/images/logo.png);
+  background-image: url(../images/logo.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -180,7 +180,7 @@ body {
   width: auto;
   height: auto;
   z-index: -100;
-  background: url(/videos/luster-story.png) no-repeat;
+  background: url(../videos/luster-story.png) no-repeat;
   background-size: cover;
   background-position: center;
   -webkit-transform: translateX(-50%) translateY(-50%);
