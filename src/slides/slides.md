@@ -19,7 +19,8 @@
 
 >>
 
-# 如何改造
+# 第一章. 如何改造
+<small>備註：往下滑動看章節內容，往右滑動切換章節</small>
 
 vv
 
@@ -39,6 +40,11 @@ vv
 
 vv
 
+# 步驟三. 考慮寬螢幕與窄螢幕的版面配置
+1. [Google Web Fundamentals | 回應式網頁設計模式](https://developers.google.com/web/fundamentals/layouts/rwd-patterns/?hl=zh-tw)
+
+vv
+
 ![](slides/mockups.png)
 
 vv
@@ -47,7 +53,7 @@ vv
 
 >>
 
-# 開始改造
+# 第二章. 開始改造
 
 vv
 
@@ -90,7 +96,7 @@ vv
 
 >>
 
-# 完成改造後
+# 第三章. 完成改造後
 便是走火入魔的開始
 
 vv
