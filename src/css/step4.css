@@ -20,7 +20,7 @@
   /* 使用 `float: left;` 可以將該元素浮動到左邊 */
   float: left;
   width: 180px;
-  background-image: url(/images/logo.png);
+  background-image: url(../images/logo.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
